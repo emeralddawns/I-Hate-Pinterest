@@ -13,10 +13,10 @@
     <title>Better Search</title>
 
   </head>
-  <body>
+  <body id="backgroundImage">
     <iframe id="backgroundImage" src=""></iframe>
     <ntp-app></ntp-app>
-    <div class="float-child">
+    <div >
       <script class="container">
           (function() {
             var cx = 'b464519dc71284e8e';
@@ -29,10 +29,11 @@
           })();
       </script>
       <!-- <gcse:search></gcse:search> -->
+      <div class="float-child"><gcse:searchbox-only resultsUrl="search_results_url"></gcse:searchbox-only></div>
     </div>
     
     <hr>
-    <div><gcse:searchbox-only resultsUrl="search_results_url"></gcse:searchbox-only></div>
+    <div class="float-child"><gcse:searchbox-only resultsUrl="search_results_url"></gcse:searchbox-only></div>
 
 
     <script type="module" src="new_tab_page.js"></script>
